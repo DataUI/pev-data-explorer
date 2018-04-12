@@ -42,7 +42,7 @@
   // var chartWidth = window.innerWidth * 0.425
   let chartWidth = $('#map').parent().width() * 1.425
   let chartHeight = 410
-  let leftPadding = 25
+  let leftPadding = 40
   let rightPadding = 2
   let topBottomPadding = 5
   let chartInnerWidth = chartWidth - leftPadding - rightPadding

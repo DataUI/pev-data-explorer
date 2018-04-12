@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="robots" content="noindex, nofollow">
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>PEV Data Explorer</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="manifest" href="site.webmanifest">
+<link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/theme.css">
+</head>
+
+<body>
+  <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8">
+          <h1>
+            PEV Data Explorer
+          <small>Visualizing nationwide plug-in electric vehicle data</small>
+        </h1>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <h2 id="map-title">Charging Stations</h2>
+        <p id="attr-desc"></p>
+      </div>
+      <div class="col-sm-6">
+        <div class="sel-attr">
+          <label class="label-inline" for="sel-attr">Select attribute:</label>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-sm-12">
+        <div id="map"></div>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-sm-12">
+        <div id="chart">
+          <div id="chart-info"></div>
+        </div>
+        <p class="small">Data Source: <a href="https://www.afdc.energy.gov/data/" target="_blank">Alternative Fuels Data Center</a></p>
+      </div>
+    </div>
+  </main>
+  <footer>
+    A GEOG 575 Project
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script>
+  window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')
+  </script>
+  <script type="text/javascript" src="js/vendor/d3.min.js"></script>
+  <script type="text/javascript" src="js/vendor/d3-queue.min.js"></script>
+  <script type="text/javascript" src="js/vendor/d3-geo.min.js"></script>
+  <script type="text/javascript" src="js/vendor/topojson.min.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+</body>
+
+</html>

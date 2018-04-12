@@ -1,0 +1,164 @@
+/* Base styles */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 small {
+  color: #fff;
+  display: block;
+  font-size: 14px;
+  margin: 10px 0 20px 3px;
+}
+
+sup {
+  font-size: 10px;
+  top: -7px;
+}
+
+option {
+    font-weight: normal;
+}
+
+
+/* Layout */
+
+header {
+  background-color: #225ea8;
+  color: #fff;  
+}
+
+main {  
+  margin-bottom: 100px;
+}
+
+footer {
+  background-color: #000;
+  color: #ccc;
+  font-size: 12px;
+  padding: 25px 0;
+  text-align: center;
+}
+
+
+
+/* Map and Chart */
+
+#map, #chart {
+  border: 1px solid #ddd;
+}
+
+
+/* Chart */
+
+#chart {
+  background-color: #999;  
+  padding: 20px 20px 10px;  
+  position: relative;
+}
+
+#chart-info {
+  border: 1px solid #fff;
+  background-color: #333;
+  color: #fff;
+  position: absolute;
+  padding: 10px;
+  right: 10px;
+}
+
+.title {
+  font-family: sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.chartTitle {
+    font-size: 1.5em;
+    font-weight: bold;    
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: black;
+  stroke-width: 1px;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 1.5em;
+    fill: #000;
+}
+
+.form-control {
+  width: 200px;
+}
+
+label+.form-control {
+  display: inline-block;
+}
+
+.sel-attr {
+  float: none;
+  margin-top: 20px;
+}
+
+@media(min-width: 768px){
+  .sel-attr {
+    float: right;  
+  }
+}
+
+.addstates {
+    stroke: #000;
+    stroke-width: 0.5px;
+    stroke-linecap: round;
+}
+
+.infoWindow {
+    font-family: sans-serif;
+    font-size: 12;
+    font-weight: bold;    
+}
+
+.chartFrame {
+    fill: none;
+    stroke: #FFFFD4;
+    stroke-width: 3px;
+    shape-rendering: crispEdges;
+}
+
+
+.infolabel h1 {
+    margin: 0 20px 0 0;
+    padding: 0;
+    display: inline-block;
+    line-height: 1em;
+}
+
+.infolabel {
+    position: absolute;
+    height: 100px;
+    min-width: 100px;
+    color: #fff;
+    background-color: #000;
+    border: solid thin #fff;
+    padding: 5px 10px;
+    top: -100px;
+}
+
+.infoBackground {
+    margin-left: 100px;
+    color:aqua;
+}
+
+
+

@@ -1,0 +1,52 @@
+state_name,state_abbr,num_stations,num_outlets,laws,sales_2016,2016_vehicles_per_capita
+Alabama,AL,145,319,2,115, 0.55 
+Alaska,AK,8,13,1,38, 0.32 
+Arizona,AZ,442,1080,16,1293, 0.21 
+Arkansas,AR,65,119,3,44, 1.66 
+California,CA,4802,17251,64,38861, 6.65 
+Colorado,CO,611,1556,19,1571, 1.59 
+Connecticut,CT,363,789,13,585, 1.31 
+Delaware,DE,41,116,6,71, 1.52 
+District of Columbia,DC,99,249,4,236, 0.96 
+Florida,FL,1169,2598,13,3382, 1.13 
+Georgia,GA,715,1995,8,1516, 2.18 
+Hawaii,HI,280,559,9,874, 3.80 
+Idaho,ID,79,163,6,56, 0.51 
+Illinois,IL,546,1253,13,1522, 0.63 
+Indiana,IN,193,394,6,275, 0.92 
+Iowa,IA,114,255,5,80, 0.57 
+Kansas,KS,193,742,0,210, 0.56 
+Kentucky,KY,95,194,1,91, 0.32 
+Louisiana,LA,88,196,2,110, 0.24 
+Maine,ME,128,217,4,37, 1.29 
+Maryland,MD,572,1425,12,878, 1.32 
+Massachusetts,MA,600,1564,15,1105, 0.91 
+Michigan,MI,561,1234,7,295, 1.39 
+Minnesota,MN,294,760,11,554, 0.78 
+Mississippi,MS,57,116,1,27, 0.58 
+Missouri,MO,382,1590,5,472, 0.15 
+Montana,MT,33,84,2,60, 0.47 
+Nebraska,NE,67,169,2,66, 0.70 
+Nevada,NV,199,567,10,538, 0.32 
+New Hampshire,NH,100,199,2,122, 0.48 
+New Jersey,NJ,267,589,8,1332, 1.07 
+New Mexico,NM,62,162,5,74, 1.25 
+New York,NY,982,2017,15,2119, 0.60 
+North Carolina,NC,614,1411,11,766, 1.25 
+North Dakota,ND,14,20,1,14, 1.01 
+Ohio,OH,386,799,7,664, 0.66 
+Oklahoma,OK,59,131,6,103, 0.40 
+Oregon,OR,559,1301,18,1944, 2.91 
+Pennsylvania,PA,395,823,6,1001, 0.71 
+Rhode Island,RI,83,210,11,95, 0.77 
+South Carolina,SC,253,532,5,164, 0.43 
+South Dakota,SD,26,47,0,12, 0.36 
+Tennessee,TN,447,1055,2,476, 0.69 
+Texas,TX,1088,2815,10,2334, 0.69 
+Utah,UT,166,462,14,660, 1.32 
+Vermont,VT,173,443,6,79, 0.89 
+Virginia,VA,512,1227,13,878, 2.38 
+Washington,WA,827,2204,18,3268, 3.04 
+West Virginia,WV,68,198,5,24, 0.84 
+Wisconsin,WI,283,497,7,1317, 0.23 
+Wyoming,WY,38,93,5,16, 0.29 
